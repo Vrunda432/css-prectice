@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .main{
+            background-color: antiquewhite;
+        }
+        .main .margin-outer{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .main .padding-inner{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .main .flex-box{
+            display: flex;
+            align-items: center;
+        }
+        .main .flex-box .right-flex-box .thmubnail{
+            /* background-color: blueviolet; */
+            height: auto;
+            width: fit-content;
+            padding: 7px;
+            border-radius: 10px;
+        }
+        .main .flex-box .right-flex-box h1{
+            font-size: 45px;
+            padding: 20px 0px;
+        }
+        .main .flex-box .right-flex-box p{
+            color:darksalmon;
+            padding-bottom: 20px;
+        }
+        .main .flex-box .right-flex-box button{
+            height: 40px;
+            width: 120px;
+            background-color: darkgray;
+            color:pink;
+            border:2px solid yellowgreen;
+        }
+ </style>
+</head>
+<body>
+    <div class="main">
+        <div class="margin.margin-outer">
+            <div class="padding-inner">
+                <div class="flex-box">
+                    <div class="left-flex-box">
+                        <img src="seaimg.jpg" alt="">
+                    </div>
+    <div class="right-flex-box">
+        <div class="thmubnail">THE GRAND MOMENT</div>
+        <h1>Le tour</h1>
+        <p>Sed ut perspiciatis unde omnis iste natus<br> error sit voluptatem accusantium doloremque<br> laudantium totem rem aperiam</p><br><br>
+        <h3>EXPLORE THE TOUR</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
